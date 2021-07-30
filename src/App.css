@@ -1,7 +1,15 @@
+
 .App {
   text-align: center;
 }
 
+#bar{
+  background-image: linear-gradient(#F06292,#F44336);
+  padding-top: 6px;
+  padding-bottom: 10px;
+  font-size: 23px;
+  color: white;
+}
 .App-header {
   display: flex;
   flex-direction: column;
@@ -12,14 +20,23 @@
 
 button{
   color: white;
-  background-color: coral;
+  background-color: #F26B38;
   font-size: 30px;
 }
 
 .slidecontainer {
   width: 100%; /* Width of the outside container */
+  padding-top: 10px;
+  font-size: 20px;
 }
 
-canvas{
-  background-color: #04AA6D;
+canvas {
+  background-color: red;
 }
+
+#sandbox{
+  padding-top: 35px;
+  background-image: linear-gradient(#F7DB4F,#2F9599  );
+  padding-bottom: 65px;
+}
+

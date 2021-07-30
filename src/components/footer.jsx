@@ -4,7 +4,7 @@
 
 function Footer(){
     return(
-        <div>
+        <div id="footer">
             <p>Copyright info will go here</p>
         </div>
     )

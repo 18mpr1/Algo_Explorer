@@ -3,9 +3,10 @@
 
 function Sandbox(){
     return(
-        <canvas id="myCanvas" width="900" height="300">
+        <div id="sandbox">
+            <canvas id="myCanvas" width="900" height="300"/>
+        </div>
 
-        </canvas>
     )
 }
 

@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 function ButtonsBar(){
 
     return(
-        <div>
+        <div id="bar">
             <h1>Algo-Explorer</h1>
             <button><b>Reset</b></button>
             <button><b>Bubble Sort</b></button>
