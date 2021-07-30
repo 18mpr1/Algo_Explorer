@@ -15,3 +15,11 @@ button{
   background-color: coral;
   font-size: 30px;
 }
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+canvas{
+  background-color: #04AA6D;
+}
