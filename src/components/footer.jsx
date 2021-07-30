@@ -2,6 +2,7 @@
 
 // Copyright and Github info will go here
 
+
 function Footer(){
     return(
         <div id="footer">
