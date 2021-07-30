@@ -4,7 +4,7 @@
 }
 
 #bar{
-  background-image: linear-gradient(#F06292,#F44336);
+  background-color: #1C77C3;
   padding-top: 6px;
   padding-bottom: 10px;
   font-size: 23px;
@@ -20,7 +20,8 @@
 
 button{
   color: white;
-  background-color: #F26B38;
+  background-color: #f39237;
+  padding-inline: 5px;
   font-size: 30px;
 }
 
@@ -31,12 +32,17 @@ button{
 }
 
 canvas {
-  background-color: red;
+  background-color: white;
+  width: 600px;
+  height:400px;
 }
 
 #sandbox{
   padding-top: 35px;
-  background-image: linear-gradient(#F7DB4F,#2F9599  );
+  background-image: linear-gradient(#39a9db,#40BCD8,#F39237,#d63230);
   padding-bottom: 65px;
 }
 
+Footer{
+  padding-bottom: 15px;
+}
