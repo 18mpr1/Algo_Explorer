@@ -3,8 +3,10 @@
 
 function ButtonsBar(){
     return(
-        <>
-        </>
+        <div>
+            <button>Reset</button>
+            <button>Bubble Sort</button>
+        </div>
     )
 }
 

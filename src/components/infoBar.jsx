@@ -9,9 +9,9 @@ include link sources
 
 function InfoBar(){
     return(
-        <>
-
-        </>
+        <div>
+            <h1>Info bar will go here</h1>
+        </div>
     )
 }
 

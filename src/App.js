@@ -6,10 +6,12 @@ import InfoBar from "./components/infoBar";
 function App() {
   return (
     <div className="App">
+        <ButtonsBar />
       <header className="App-header">
         <h1 align="center">AlgoVisuals</h1>
-          <p align="center">This webapp will serve as your study aid for learning sorting algorithms.</p>
       </header>
+        <Sandbox />
+        <InfoBar />
 
     </div>
   );
