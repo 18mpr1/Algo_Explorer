@@ -4,11 +4,12 @@
 }
 
 #bar{
-  background-color: #1C77C3;
+  background-color: black;
   padding-top: 6px;
   padding-bottom: 10px;
   font-size: 23px;
-  color: white;
+  color: #99FF99;
+  padding-inline: 15px;
 }
 .App-header {
   display: flex;
@@ -19,30 +20,42 @@
 }
 
 button{
-  color: white;
-  background-color: #f39237;
+  /*color: white;*/
+  /*background-color: #f39237;*/
   padding-inline: 5px;
   font-size: 30px;
 }
 
 .slidecontainer {
-  width: 100%; /* Width of the outside container */
-  padding-top: 10px;
-  font-size: 20px;
+  width: 65%; /* Width of the outside container */
+  padding-top: 20px;
+  font-size: 40px;
+  position: relative;
+  left: 18%;
+  text-align: center;
+  color: #FF99FF;
 }
 
 canvas {
   background-color: white;
-  width: 600px;
-  height:400px;
+  width: 900px;
+  height:600px;
+  padding-top: 65px;
 }
 
 #sandbox{
-  padding-top: 35px;
-  background-image: linear-gradient(#39a9db,#40BCD8,#F39237,#d63230);
+  padding-top: 70px;
+  background-image: linear-gradient(#3366CC,#339999,#330066);
   padding-bottom: 65px;
 }
 
 Footer{
   padding-bottom: 15px;
 }
+
+#title{
+  text-align: center;
+  font-size: 55px;
+}
+
+

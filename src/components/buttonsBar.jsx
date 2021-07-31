@@ -2,18 +2,31 @@
 // <Randomize> <Array Size slider> <Speed slider> <Bubble Sort>
 import Slider from '@material-ui/core/Slider';
 import Typography from '@material-ui/core/Typography';
+import '../styling/buttons.css';
 
 
 function ButtonsBar(){
 
     return(
         <div id="bar">
-            <h1>Algo-Explorer</h1>
-            <button><b>Reset</b></button>
-            <button><b>Bubble Sort</b></button>
-            <button><b>Quick Sort</b></button>
-            <button><b>Merge Sort</b></button>
-            <button><b>Insertion Sort</b></button>
+            <h1 id="title"><b>Algo-Explorer</b></h1>
+            <div className="buttons">
+
+                <button className="pulse">Cocktail Sort</button>
+                <button className="close">Bogo Sort</button>
+                <button className="raise">Merge Sort</button>
+                <button className="up">Quick Sort</button>
+                <button className="slide">Bubble Sort</button>
+                <button className="offset">Reset</button>
+
+                {/*<button className="fill">Fill</button>
+                <button className="pulse">Pulse</button>
+                <button className="close">Close</button>
+                <button className="raise">Raise</button>
+                <button className="up">Fill Up</button>
+                <button className="slide">Slide</button>
+                <button className="offset">Offset</button>*/}
+            </div>
 
             <div className="slidecontainer">
                 <Typography id="non-linear-slider" gutterBottom>
