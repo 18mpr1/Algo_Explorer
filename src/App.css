@@ -51,6 +51,8 @@ canvas {
 
 Footer{
   padding-bottom: 15px;
+  position: absolute;
+  bottom: 80%;
 }
 
 #title{
@@ -58,4 +60,7 @@ Footer{
   font-size: 55px;
 }
 
-
+#descriptor{
+  position: absolute;
+  padding: 15px;
+}
