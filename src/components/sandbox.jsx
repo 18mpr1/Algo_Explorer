@@ -53,12 +53,12 @@ export default class Sandbox extends React.Component {
                 <div id="bar">
                     <h1 id="title"><b>Algo-Explorer</b></h1>
                     <div className="buttons">
-                        <button className="fill">Cocktail Sort</button>
-                        <button className="fill">Bogo Sort</button>
-                        <button className="fill">Merge Sort</button>
-                        <button className="fill">Quick Sort</button>
-                        <button className="fill">Bubble Sort</button>
-                        <button className="offset" onClick={refreshPage}>Reset</button>
+                        <button className="fill"><b>Cocktail Sort</b></button>
+                        <button className="fill"><b>Bogo Sort</b></button>
+                        <button className="fill"><b>Merge Sort</b></button>
+                        <button className="fill"><b>Quick Sort</b></button>
+                        <button className="fill"><b>Bubble Sort</b></button>
+                        <button className="offset" onClick={refreshPage}><b>Reset</b></button>
                     </div>
                     <div className="slidecontainer">
                         <Typography id="non-linear-slider" gutterBottom>
