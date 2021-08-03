@@ -1,7 +1,6 @@
 .array-container {
     position: absolute;
-    left: 100px;
-    /* top: 100px; */
+    left: 80px;
 }
 
 .array-bar {
@@ -9,4 +8,10 @@
     display: inline-block;
     margin: 0 1px;
     background-color: pink;
+    color: yellow;
+}
+
+#bar{
+    position: relative;
+    top: -90px;
 }

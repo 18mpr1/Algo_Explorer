@@ -8,7 +8,7 @@ const ANIMATION_SPEED_MS = 1;
 const NUMBER_OF_ARRAY_BARS = 290;
 
 // This is the main color of the array bars.
-const PRIMARY_COLOR = 'turquoise';
+const PRIMARY_COLOR = 'purple';
 
 // This is the color of array bars that are being compared throughout the animations.
 const SECONDARY_COLOR = 'red';
