@@ -3,10 +3,13 @@
 import Slider from '@material-ui/core/Slider';
 import Typography from '@material-ui/core/Typography';
 import '../styling/buttons.css';
+import Sandbox from "./sandbox";
 
 
 function ButtonsBar(){
-
+    function refreshPage() {
+        window.location.reload(false);
+    }
     return(
         <div id="bar">
             <h1 id="title"><b>Algo-Explorer</b></h1>
@@ -17,7 +20,7 @@ function ButtonsBar(){
                 <button className="fill">Merge Sort</button>
                 <button className="fill">Quick Sort</button>
                 <button className="fill">Bubble Sort</button>
-                <button className="offset">Reset</button>
+                <button className="offset" onClick={refreshPage}>Reset</button>
 
                 {/*<button className="fill">Fill</button>
                 <button className="pulse">Pulse</button>
